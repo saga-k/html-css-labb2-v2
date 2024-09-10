@@ -103,7 +103,7 @@ p {
 }
 
 .p-small {
-  font-size: clamp(0.8rem, 0.17vi + 0.76rem, 1.2rem);
+  font-size: 0.8rem;
 }
 
 
@@ -296,7 +296,8 @@ footer i {
   .two-col-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 1rem;
+    grid-template-rows: min-content min-content min-content min-content min-content;
+    gap: 0.7rem;
   }
 
   .three-col-grid {
@@ -307,6 +308,7 @@ footer i {
   .four-col-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1rem;
   }
 
   /* -----------------Max-width-----------------*/
@@ -318,10 +320,9 @@ footer i {
   /* -----------------Hero-----------------*/
   #hero-img {
     grid-column: 2/3;
-    grid-row: 1/6;
+    grid-row: 1/8;
     margin: 0;
     align-self: center;
-    max-height: 30rem;
   }
 
   #hero h1,
@@ -330,5 +331,27 @@ footer i {
   button {
     grid-column: 1/2;
     align-self: flex-start;
+    margin: 0;
+  }
+
+  #hero button {
+    margin: 0;
+    grid-row: 6/7;
+  }
+
+  #blockchain-security-logo {
+    grid-row: 2/3;
+  }
+
+  #hero h1 {
+    grid-row: 3/4;
+  }
+
+  #hero h3 {
+    grid-row: 4/5;
+  }
+
+  #hero p {
+    grid-row: 5/6;
   }
 }
