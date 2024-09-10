@@ -16,14 +16,16 @@
 <body>
 
   <!--_____________________________Nav Bar_____________________________-->
-  <nav class="bg-gradient">
-    <img src="Assets/fyeo-logo.svg" alt="Fyeo logo">
-    <ul>
-      <li><a class="copy-light">Home</a></li>
-      <li><a class="copy-light">About</a></li>
-      <li><a class="copy-light">Contact</a></li>
-    </ul>
-  </nav>
+  <header class="bg-gradient">
+    <nav>
+      <img src="Assets/fyeo-logo.svg" alt="Fyeo logo">
+      <ul>
+        <li><a class="copy-light">Home</a></li>
+        <li><a class="copy-light">About</a></li>
+        <li><a class="copy-light">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
   <!--_____________________________Hero section_____________________________-->
   <main>
@@ -114,36 +116,37 @@
     <!--_____________________________Audit Process_____________________________-->
     <section class="bg-grey">
       <article id="audit-process">
-        <h2>Audit Process</h2>
-        <p class="medium-paragraph">What sets FYEO apart from the rest is not
-          only our talent but our approach. We aim to give your team
-          real-time updates throughout our line-by-line interactive
-          auditing process.</p>
-
+        <div id="audit-process-intro">
+          <h2>Audit Process</h2>
+          <p>What sets FYEO apart from the rest is not
+            only our talent but our approach. We aim to give your team
+            real-time updates throughout our line-by-line interactive
+            auditing process.</p>
+        </div>
         <section class="card">
           <i class="fa-solid fa-handshake-simple"></i>
-          <h4>1.Contact</h4>
-          <p class="small-paragraph">Request an audit with details about
+          <h3>1.Contact</h3>
+          <p>Request an audit with details about
             your team and project and get MNDA in place.</p>
         </section>
 
         <section class="card">
           <i class="fa-solid fa-calendar-days"></i>
-          <h4>2.Scheduling</h4>
-          <p class="small-paragraph">We will schedule a review based on your
+          <h3>2.Scheduling</h3>
+          <p>We will schedule a review based on your
             availaility and your project's roadmap.</p>
         </section>
 
         <section class="card">
           <i class="fa-solid fa-bullseye"></i>
-          <h4>3.Scope</h4>
+          <h3>3.Scope</h3>
           <p>We scope your repository and provide you with a quote detailing
             estimated workload, timeline and pricing. </p>
         </section>
 
         <section class="card">
           <i class="fa-solid fa-magnifying-glass"></i>
-          <h4>4.Audit</h4>
+          <h3>4.Audit</h3>
           <p>Our specialised review team will conduct our extensive auditing
             process, sharing any questions or findings as they arise with the
             development team. </p>
@@ -151,29 +154,29 @@
 
         <section class="card">
           <i class="fa-solid fa-file"></i>
-          <h4>5.Report</h4>
+          <h3>5.Report</h3>
           <p>Deliver Draft Audit Report which will detail all of our findings and
             recommended fixes.</p>
         </section>
 
         <section class="card">
           <i class="fa-solid fa-magnifying-glass"></i>
-          <h4>6.Remediation period</h4>
+          <h3>6.Remediation period</h3>
           <p>Clients will enter a 7 day period to implement and discuss our
             recommended fixes. </p>
         </section>
 
         <section class="card">
           <i class="fa-solid fa-repeat"></i>
-          <h4>7.Re-Review</h4>
+          <h3>7.Re-Review</h3>
           <p>Our review team will re-review the implemented fixes to all findings
             documented in the report. </p>
         </section>
 
         <section class="card">
           <i class="fa-solid fa-file-circle-check"></i>
-          <h4>8.Final report</h4>
-          <p class="small-paragraph">The review team sends an updated audit report
+          <h3>8.Final report</h3>
+          <p>The review team sends an updated audit report
             that details the status of all findings highlighted in the report,
             confirming remediations or acknowledgement of all issues.
           </p>
@@ -183,7 +186,7 @@
 
     <!--_____________________________FYEO usp_____________________________-->
     <article id="fyeo-usp">
-      <h2>Why put your trust in FYEO for your Solana Smart Contract Audit?</h2>
+      <h2>Why put your trust in FYEO for your Smart Contract Audit?</h2>
       <section id="box">
         <div class="flex-horizontal">
           <Img class="check" src="assets/check.svg" alt="checkmark">
@@ -201,7 +204,7 @@
           <div>
             <h3>Expertise:</h3>
             <p>Fullstack code audits of
-              wallets, dApps, Layer 0 & 1 and everything in between
+              wallets, dApps, Layer and everything in between
               going beyond the code to review the design, architecture,
               and economics to ensure all critical vulnerabilities
               are identified and resolved at end of audit</p>
@@ -246,16 +249,21 @@
   </main>
   <!--_____________________________Footer_____________________________-->
   <footer class="bg-gradient">
-    <section id="Contact">
-      <p class="copy-light">Contact</p>
-      <a class="copy-light">hello@fyeo.io</a>
-    </section>
+    <section>
+      <div id="footer-links">
+        <div id="Contact">
+          <p class="copy-light">Contact</p>
+          <a class="copy-light">hello@fyeo.io</a>
+        </div>
 
-    <section id="social-icons">
-      <p class="copy-light">Follow us</p>
-      <i class="fa-brands fa-facebook"></i>
-      <i class="fa-brands fa-twitter"></i>
-      <i class="fa-brands fa-telegram"></i>
+        <div id="social-icons">
+          <p class="copy-light">Follow us</p>
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-telegram"></i>
+        </div>
+      </div>
+      <p class="p-small copy-light" id="copyright">©FYEO Inc. 2024</p>
     </section>
   </footer>
 </body>
