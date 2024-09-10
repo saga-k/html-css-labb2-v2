@@ -84,10 +84,12 @@ a {
 
 h1 {
   font-size: 2rem;
+  line-height: 2.5rem;
 }
 
 h2 {
   font-size: 2rem;
+  line-height: 2.5rem;
 }
 
 h3 {
@@ -213,7 +215,7 @@ nav a:hover {
   gap: 1.8rem;
 }
 
-#audit-reasons h1 {
+#audit-reasons h2 {
   margin-bottom: 1rem;
 }
 
@@ -294,11 +296,6 @@ footer i {
 
   /* -----------------Grids-----------------*/
 
-  .three-col-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-
   .four-col-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -312,22 +309,24 @@ footer i {
   }
 
   /* -----------------Hero-----------------*/
-  .two-col-grid {
+  /* create grid*/
+  #hero {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: min-content min-content min-content min-content min-content;
+    grid-template-rows: repeat(5 min-content);
     gap: 0.7rem;
   }
 
+  /* set column, remove margin*/
   #hero h1,
   #hero h3,
   #hero p,
   #hero button {
     grid-column: 1/2;
-    align-self: flex-start;
     margin: 0;
   }
 
+  /* set rows for copy*/
   #hero button {
     grid-row: 6/7;
   }
@@ -348,10 +347,32 @@ footer i {
     grid-row: 5/6;
   }
 
+  /* Position image*/
   #hero-img {
     grid-column: 2/3;
     grid-row: 1/8;
     margin: 0;
     align-self: center;
   }
+
+  /* -----------------Audit reasons-----------------*/
+  /* Create grid*/
+  #audit-reasons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  /* Set item positions*/
+  #audit-reasons-intro {
+    grid-column: 1/4;
+  }
+
+  /* Fix horizontal alignment*/
+  .icon-and-copy {
+    display: grid;
+    grid-template-rows: 3rem 2.5rem 1fr;
+  }
+
+  /* -----------------Audit Process-----------------*/
+
 }
