@@ -80,38 +80,34 @@ a {
 }
 
 /* Font sizes*/
+
+
 h1 {
-  font-size: clamp(1.95rem, 1.56vi + 1.56rem, 3.81rem);
+  font-size: 2rem;
 }
 
 h2 {
-  font-size: clamp(1.95rem, 1.56vi + 1.56rem, 3.81rem);
+  font-size: 2rem;
 }
 
 h3 {
-  font-size: clamp(1.25rem, 0.61vi + 1.1rem, 2.58rem);
+  font-size: 1.25rem;
 }
 
 h4 {
-  font-size: clamp(1rem, 0.34vi + 0.91rem, 2.19rem);
+  font-size: 1rem;
 }
 
 p {
-  font-size: clamp(1rem, 0.34vi + 0.91rem, 2.19rem);
+  font-size: 1rem;
 }
 
 .p-small {
   font-size: clamp(0.8rem, 0.17vi + 0.76rem, 1.2rem);
 }
 
-/* -----------------Mobile only-----------------*/
 
-/* Padding mobile */
-article {
-  padding: 3rem 5%;
-}
-
-/* buttons mobile*/
+/* buttons*/
 button {
   font-family: circular-medium, sans-serif;
   font-weight: 500;
@@ -120,6 +116,17 @@ button {
   padding: 0.7rem 1rem;
   background-color: #31AD34;
   border-radius: 5px;
+  font-size: 1rem;
+  width: min-content;
+  height: min-content;
+  text-wrap: nowrap;
+}
+
+/* -----------------Mobile only-----------------*/
+
+/* Padding mobile */
+article {
+  padding: 3rem 5%;
 }
 
 /* ------------------------------Global End------------------------------*/
@@ -279,4 +286,49 @@ footer p {
 footer i {
   font-size: 32px;
   color: white;
+}
+
+/* ---------------------------Desktop layout start---------------------------*/
+
+@media screen and (min-width:800px) {
+
+  /* -----------------Grids-----------------*/
+  .two-col-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+
+  .three-col-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .four-col-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  /* -----------------Max-width-----------------*/
+  article {
+    max-width: 1400px;
+    margin: auto;
+  }
+
+  /* -----------------Hero-----------------*/
+  #hero-img {
+    grid-column: 2/3;
+    grid-row: 1/6;
+    margin: 0;
+    align-self: center;
+    max-height: 30rem;
+  }
+
+  #hero h1,
+  h3,
+  p,
+  button {
+    grid-column: 1/2;
+    align-self: flex-start;
+  }
 }
