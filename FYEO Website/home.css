@@ -32,11 +32,6 @@ Font sizes
   box-sizing: border-box;
 }
 
-/* Padding mobile */
-article {
-  padding: 3rem 5%;
-}
-
 /* Background colors */
 .bg-gradient {
   background-image: linear-gradient(to right, #31AD34, #FAC805);
@@ -109,7 +104,14 @@ p {
   font-size: clamp(0.8rem, 0.17vi + 0.76rem, 1.2rem);
 }
 
-/* buttons*/
+/* -----------------Mobile only-----------------*/
+
+/* Padding mobile */
+article {
+  padding: 3rem 5%;
+}
+
+/* buttons mobile*/
 button {
   font-family: circular-medium, sans-serif;
   font-weight: 500;
@@ -122,7 +124,7 @@ button {
 
 /* ------------------------------Global End------------------------------*/
 
-/* ------------------------------Mobile Start------------------------------*/
+/* ---------------------------Mobile Layout Start---------------------------*/
 
 /* -----------------Navbar-----------------*/
 nav {
@@ -261,4 +263,20 @@ i {
 
 #box p {
   margin-top: 0.3rem;
+}
+
+/* -----------------footer-----------------*/
+footer {
+  padding: 1rem 5%;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer p {
+  margin-bottom: 1rem;
+}
+
+footer i {
+  font-size: 32px;
+  color: white;
 }
