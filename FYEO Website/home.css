@@ -132,7 +132,9 @@ button {
   text-wrap: nowrap;
 }
 
-/* ------------------------------Global End------------------------------*/
+button:hover {
+  background-color: #209137;
+}
 
 /* ---------------------------Mobile Layout Start---------------------------*/
 
@@ -283,7 +285,7 @@ i {
 
 /* -----------------footer-----------------*/
 
-footer section {
+#footer-content {
   padding: 1rem 5%;
   max-width: 1400px;
   margin: auto;
@@ -295,7 +297,7 @@ footer section {
   align-items: flex-end;
 }
 
-footer p {
+footer h4 {
   margin-bottom: 1rem;
 }
 
