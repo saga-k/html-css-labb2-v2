@@ -1,0 +1,264 @@
+/* Index
+
+Fontfiles
+Global fixes
+Padding Mobile
+Background colors
+Font Colors
+Font family + lineheight (Standard dark color)
+Font sizes
+
+/* ------------------------------Global Start------------------------------*/
+/* Fontfiles*/
+@font-face {
+  font-family: circular-book;
+  src: url(CircularPro-Book.otf);
+}
+
+@font-face {
+  font-family: circular-medium;
+  src: url(CircularPro-Medium.otf);
+}
+
+@font-face {
+  font-family: circular-bold;
+  src: url(CircularPro-Bold.otf)
+}
+
+/* Global fixes */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Padding mobile */
+article {
+  padding: 3rem 5%;
+}
+
+/* Background colors */
+.bg-gradient {
+  background-image: linear-gradient(to right, #31AD34, #FAC805);
+}
+
+.bg-grey {
+  background-color: #F9F9FE;
+}
+
+/* Font family + lineheight*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: circular-medium, sans-serif;
+  font-weight: 500;
+  color: #323232;
+  line-height: 1em;
+}
+
+p,
+li {
+  font-family: circular-book, sans-serif;
+  font-weight: 400;
+  color: #323232;
+  line-height: 1.25em;
+}
+
+a {
+  font-family: circular-book, sans-serif;
+  font-weight: 400;
+  color: #31AD34;
+  line-height: 1.25em;
+  text-decoration: underline;
+}
+
+/* Font color variations */
+.copy-light {
+  color: white;
+}
+
+.copy-green {
+  color: #31AD34;
+}
+
+/* Font sizes*/
+h1 {
+  font-size: clamp(1.95rem, 1.56vi + 1.56rem, 3.81rem);
+}
+
+h2 {
+  font-size: clamp(1.95rem, 1.56vi + 1.56rem, 3.81rem);
+}
+
+h3 {
+  font-size: clamp(1.25rem, 0.61vi + 1.1rem, 2.58rem);
+}
+
+h4 {
+  font-size: clamp(1rem, 0.34vi + 0.91rem, 2.19rem);
+}
+
+p {
+  font-size: clamp(1rem, 0.34vi + 0.91rem, 2.19rem);
+}
+
+.p-small {
+  font-size: clamp(0.8rem, 0.17vi + 0.76rem, 1.2rem);
+}
+
+/* buttons*/
+button {
+  font-family: circular-medium, sans-serif;
+  font-weight: 500;
+  color: white;
+  border: none;
+  padding: 0.7rem 1rem;
+  background-color: #31AD34;
+  border-radius: 5px;
+}
+
+/* ------------------------------Global End------------------------------*/
+
+/* ------------------------------Mobile Start------------------------------*/
+
+/* -----------------Navbar-----------------*/
+nav {
+  display: flex;
+  padding: 1rem 5%;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  flex-grow: 1;
+  justify-content: flex-end;
+  gap: 2rem;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* -----------------Hero section-----------------*/
+#blockchain-security-logo {
+  height: 3.5rem;
+}
+
+#hero h1 {
+  margin: 0.7rem 0;
+}
+
+#hero-img {
+  margin: 2rem 0 1.3rem 0;
+}
+
+#hero button {
+  margin: 1.2rem 0;
+}
+
+/* -----------------Logo Carousel-----------------*/
+@keyframes slide1 {
+  from {
+    transform: translatex(0%);
+  }
+
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+#logo-carousel {
+  display: flex;
+  overflow-x: hidden;
+}
+
+#logo-animation1 {
+  display: flex;
+  animation: 15s slide1 infinite linear;
+}
+
+#logo-animation2 {
+  display: flex;
+  animation: 15s slide1 infinite linear;
+}
+
+#logo-carousel img {
+  opacity: 50%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+/* -----------------Audit reasons-----------------*/
+#audit-reasons {
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+}
+
+#audit-reasons h1 {
+  margin-bottom: 1rem;
+}
+
+.icon-and-copy p {
+  margin-top: 0.5rem;
+}
+
+.icon-and-copy img {
+  margin-bottom: 0.3rem;
+  height: 40px;
+}
+
+/* -----------------Audit Process-----------------*/
+#audit-process {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.card {
+  background-color: white;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  border-radius: 5px;
+}
+
+i {
+  font-size: 36px;
+  color: #31AD34;
+}
+
+/* -----------------fyeo usp-----------------*/
+#box {
+  background-color: #F9F9FE;
+  padding: 2rem 1rem;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.flex-horizontal {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.check {
+  width: 20px;
+}
+
+#box p {
+  margin-top: 0.3rem;
+}
