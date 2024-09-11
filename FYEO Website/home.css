@@ -319,7 +319,7 @@ footer i {
   #hero {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: repeat(5 min-content);
+    grid-template-rows: min-content min-content min-content min-content min-content;
     gap: 0.7rem;
   }
 
@@ -390,3 +390,6 @@ footer i {
   }
 
 }
+
+
+/* Validated 11 September 2024*/
