@@ -20,11 +20,6 @@ Font sizes
   src: url(CircularPro-Medium.otf);
 }
 
-@font-face {
-  font-family: circular-bold;
-  src: url(CircularPro-Bold.otf)
-}
-
 /* Global fixes */
 * {
   margin: 0;
