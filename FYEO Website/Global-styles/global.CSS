@@ -1,0 +1,168 @@
+/* ------------------------------Global Start------------------------------*/
+/* Fontfiles*/
+@font-face {
+  font-family: circular-book;
+  src: url(CircularPro-Book.otf);
+}
+
+@font-face {
+  font-family: circular-medium;
+  src: url(CircularPro-Medium.otf);
+}
+
+/* Global fixes */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+article {
+  padding: 3rem 5%;
+  max-width: 1400px;
+  margin: auto;
+}
+
+/* Background colors */
+.bg-gradient {
+  background-image: linear-gradient(to right, #31AD34, #FAC805);
+}
+
+.bg-grey {
+  background-color: #F9F9FE;
+}
+
+/* Font family + lineheight*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: circular-medium, sans-serif;
+  font-weight: 500;
+  color: #323232;
+  line-height: 1.25em;
+}
+
+p,
+li {
+  font-family: circular-book, sans-serif;
+  font-weight: 400;
+  color: #323232;
+  line-height: 1.25em;
+}
+
+a {
+  font-family: circular-book, sans-serif;
+  font-weight: 400;
+  color: #31AD34;
+  line-height: 1.25em;
+  text-decoration: underline;
+}
+
+/* Font color variations */
+.copy-light {
+  color: white;
+}
+
+.copy-green {
+  color: #31AD34;
+}
+
+/* Font sizes*/
+
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.25rem;
+}
+
+h4 {
+  font-size: 1rem;
+}
+
+p {
+  font-size: 1rem;
+}
+
+.p-small {
+  font-size: 0.8rem;
+}
+
+/* buttons*/
+button {
+  font-family: circular-medium, sans-serif;
+  font-weight: 500;
+  color: white;
+  border: none;
+  padding: 0.7rem 1rem;
+  background-color: #31AD34;
+  border-radius: 5px;
+  font-size: 1rem;
+  width: min-content;
+  height: min-content;
+  text-wrap: nowrap;
+}
+
+button:hover {
+  background-color: #209137;
+}
+
+/* -----------------Navbar-----------------*/
+nav {
+  display: flex;
+  padding: 1rem 5%;
+  max-width: 1400px;
+  margin: auto;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  flex-grow: 1;
+  justify-content: flex-end;
+  gap: 2rem;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* -----------------footer-----------------*/
+
+#footer-content {
+  padding: 1rem 5%;
+  max-width: 1400px;
+  margin: auto;
+}
+
+#footer-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+footer h4 {
+  margin-bottom: 1rem;
+}
+
+footer i {
+  font-size: 32px;
+  color: white;
+}
+
+#copyright {
+  margin: 1rem 0 0 0;
+}
