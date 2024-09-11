@@ -6,6 +6,7 @@
 2. Global fixes
   - Reset Margin and Padding
   - Box Sizing
+  - Set Website Width
 
 3. Background colors
   - Gradient Background
@@ -15,7 +16,6 @@
   - Heading Fonts
   - Paragraph and List Fonts
   - Anchor Fonts
-  - Button Fonts
 
 5. Font colors
   - Light Copy Color
@@ -23,15 +23,15 @@
 
 6. Font sizes
   - Heading Sizes
-  - Paragraph Size
-  - Small Paragraph Size
+  - Paragraph Sizes
 
 7. Buttons
   - Button Styles
   - Button Hover Effects
 
-8. Mobile Layout
-  - Navbar
+8. Navbar
+
+9. Mobile Layout
   - Hero Section
   - Logo Carousel
   - Audit Reasons
@@ -39,11 +39,10 @@
   - Fyeo USP (Unique Selling Points)
   - Footer
 
-9. Desktop Layout
+10. Desktop Layout
   - Hero Section (Grid Layout)
   - Audit Reasons (Grid Layout)
   - Audit Process (Grid Layout)
-
 
 /* ------------------------------Global Start------------------------------*/
 /* Fontfiles*/
@@ -108,7 +107,6 @@ a {
   text-decoration: underline;
 }
 
-
 /* Font color variations */
 .copy-light {
   color: white;
@@ -145,7 +143,6 @@ p {
   font-size: 0.8rem;
 }
 
-
 /* buttons*/
 button {
   font-family: circular-medium, sans-serif;
@@ -164,8 +161,6 @@ button {
 button:hover {
   background-color: #209137;
 }
-
-/* ---------------------------Mobile Layout Start---------------------------*/
 
 /* -----------------Navbar-----------------*/
 nav {
@@ -191,6 +186,7 @@ nav a:hover {
   text-decoration: underline;
 }
 
+/* ---------------------------Mobile Layout Start---------------------------*/
 /* -----------------Hero section-----------------*/
 #blockchain-security-logo {
   height: 3.5rem;
@@ -288,7 +284,7 @@ i {
 }
 
 /* -----------------fyeo usp-----------------*/
-#box {
+#fyeo-usp-box {
   background-color: #F9F9FE;
   padding: 2rem 1rem;
   border-radius: 5px;
@@ -308,12 +304,12 @@ i {
   width: 1.3rem;
 }
 
-#box p {
-  margin-top: 0.3rem;
-}
-
 #box h3 {
   line-height: 1.3rem;
+}
+
+#box p {
+  margin-top: 0.3rem;
 }
 
 /* -----------------footer-----------------*/
