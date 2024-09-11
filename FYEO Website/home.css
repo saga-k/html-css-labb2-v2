@@ -1,12 +1,49 @@
 /* Index
+1. Fontfiles
+  - Circular Book
+  - Circular Medium
 
-Fontfiles
-Global fixes
-Padding Mobile
-Background colors
-Font Colors
-Font family + lineheight (Standard dark color)
-Font sizes
+2. Global fixes
+  - Reset Margin and Padding
+  - Box Sizing
+
+3. Background colors
+  - Gradient Background
+  - Grey Background
+
+4. Font family + line-height
+  - Heading Fonts
+  - Paragraph and List Fonts
+  - Anchor Fonts
+  - Button Fonts
+
+5. Font colors
+  - Light Copy Color
+  - Green Copy Color
+
+6. Font sizes
+  - Heading Sizes
+  - Paragraph Size
+  - Small Paragraph Size
+
+7. Buttons
+  - Button Styles
+  - Button Hover Effects
+
+8. Mobile Layout
+  - Navbar
+  - Hero Section
+  - Logo Carousel
+  - Audit Reasons
+  - Audit Process
+  - Fyeo USP (Unique Selling Points)
+  - Footer
+
+9. Desktop Layout
+  - Hero Section (Grid Layout)
+  - Audit Reasons (Grid Layout)
+  - Audit Process (Grid Layout)
+
 
 /* ------------------------------Global Start------------------------------*/
 /* Fontfiles*/
@@ -52,7 +89,7 @@ h6 {
   font-family: circular-medium, sans-serif;
   font-weight: 500;
   color: #323232;
-  line-height: 1em;
+  line-height: 1.25em;
 }
 
 p,
@@ -86,17 +123,14 @@ a {
 
 h1 {
   font-size: 2rem;
-  line-height: 2.5rem;
 }
 
 h2 {
   font-size: 2rem;
-  line-height: 2.5rem;
 }
 
 h3 {
   font-size: 1.25rem;
-  line-height: 1.6rem;
 }
 
 h4 {
@@ -233,6 +267,10 @@ nav a:hover {
   display: flex;
   flex-direction: column;
   gap: 1rem;
+}
+
+#audit-process h2 {
+  margin-bottom: 0.8rem;
 }
 
 .card {
