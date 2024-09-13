@@ -68,6 +68,7 @@ li {
     font-size: 1.25rem;
     font-family: circular-medium, sans-serif;
     grid-row: 1/2;
+    grid-column: 2/4;
     align-self: flex-end;
   }
 

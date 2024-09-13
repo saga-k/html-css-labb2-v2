@@ -25,7 +25,7 @@ article {
 
 /* Background colors */
 .bg-gradient {
-  background-image: linear-gradient(to right, #31AD34, #FAC805);
+  background-image: linear-gradient(to right, #7A00DA, #5300DA);
 }
 
 .bg-grey {
@@ -56,7 +56,7 @@ li {
 a {
   font-family: circular-book, sans-serif;
   font-weight: 400;
-  color: #31AD34;
+  color: #5300DA;
   line-height: 1.25em;
   text-decoration: underline;
 }
@@ -66,8 +66,8 @@ a {
   color: white;
 }
 
-.copy-green {
-  color: #31AD34;
+.copy-blue {
+  color: #5300DA;
 }
 
 /* Font sizes*/
@@ -104,7 +104,7 @@ button {
   color: white;
   border: none;
   padding: 0.7rem 1rem;
-  background-color: #31AD34;
+  background-color: #5300DA;
   border-radius: 5px;
   font-size: 1rem;
   width: min-content;
@@ -113,7 +113,7 @@ button {
 }
 
 button:hover {
-  background-color: #209137;
+  background-color: #3b009a;
 }
 
 /* -----------------Navbar-----------------*/
