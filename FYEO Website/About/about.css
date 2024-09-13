@@ -16,7 +16,21 @@ li {
   list-style-position: inside;
 }
 
+/* --------------FYEO Team--------------*/
+.card-img {
+  width: 100%;
+}
 
+.flex-horizontal {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 5%;
+}
+
+.fa-linkedin {
+  font-size: 36px;
+  color: #323232;
+}
 
 /* ---------------------------Desktop layout start---------------------------*/
 /* --------------Hero section--------------*/
