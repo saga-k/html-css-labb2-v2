@@ -73,4 +73,8 @@ li {
     grid-column: 2/4;
   }
 
+  /* --------------FYEO team--------------*/
+  #olivia-mitchell {
+    grid-column: 1/2;
+  }
 }
