@@ -17,7 +17,7 @@
   box-sizing: border-box;
 }
 
-article {
+.margins {
   padding: 3rem 5%;
   max-width: 1400px;
   margin: auto;

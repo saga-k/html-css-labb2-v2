@@ -24,15 +24,75 @@
       </ul>
     </nav>
   </header>
-  <!--_____________________________Hero Section_____________________________-->
-  <div class="bg-gradient">
-    <article id="hero-section">
-      <h1 class="copy-light">Request security audit</h1>
-      <p class="copy-light">FYEO is a leading Cybersecurity Audit firm that
-        focuses on reviewing your DeFi and crypto code for your and your
-        customer's safety. We know DeFi moves fast, and so do we. Use the form
-        below and we can get started!. Please provide as many details as possible
-        to help our team prepare an accurate estimate and scope of work.</p>
-    </article>
-  </div>
+  <main>
+    <!--_____________________________Hero Section_____________________________-->
+    <div class="bg-gradient">
+      <article id="hero-section" class="margins">
+        <h1 class="copy-light">Request security audit</h1>
+        <p class="copy-light">FYEO is a leading Cybersecurity Audit firm that
+          focuses on reviewing your DeFi and crypto code for your and your
+          customer's safety. We know DeFi moves fast, and so do we. Use the form
+          below and we can get started!. Please provide as many details as possible
+          to help our team prepare an accurate estimate and scope of work.</p>
+      </article>
+    </div>
+
+    <!--_____________________________Form_____________________________-->
+    <form class="margins">
+      <h2>Contact Information</h2>
+
+      <label>
+        First Name*
+        <input required type="text" name="first-name">
+      </label>
+
+      <label>
+        Last Name*
+        <input required type="text" name="last-name">
+      </label>
+
+      <label>
+        Email*
+        <input required type="email" name="email">
+      </label>
+
+      <label>
+        Country*
+        <input required type="text" name="country">
+      </label>
+
+      <label>
+        Audit Description*
+        <textarea required name="audit-description">
+        </textarea>
+      </label>
+
+      <h2>Tehnical details</h2>
+      <p>Please provide as many technical details as possible to help our team
+        quickly assess the scope of the audit.</p>
+
+      <label>
+        Repository link
+        <input type="text" name="repository-link" placeholder="Link to Github repository if available">
+      </label>
+
+      <label>
+        Repository link
+        <input type="text" name="repository-link" placeholder="Link to Github repository if available">
+      </label>
+
+      <label>
+        Github link
+        <input type="text" name="github-link" placeholder="Specific Github commit to audit if available ">
+      </label>
+
+      <label>
+        Link to Documentation
+        <input type="text" name="github-link" placeholder="Please provide a link to user documentation if available">
+      </label>
+
+      <button type="submit">Request security audit</button>
+    </form>
+
+  </main>
 </body>
