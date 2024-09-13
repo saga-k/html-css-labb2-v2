@@ -108,12 +108,11 @@ Desktop Layout
 
 i {
   font-size: 36px;
-  color: #00B00C;
+  color: #4C00C9;
 }
 
 /* -----------------fyeo usp-----------------*/
 #fyeo-usp-box {
-  background-color: #F9F9FE;
   padding: 2rem 1rem;
   border-radius: 5px;
   display: flex;
