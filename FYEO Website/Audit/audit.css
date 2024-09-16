@@ -7,6 +7,11 @@
   line-height: 1.5rem;
 }
 
+textarea,
+input {
+  font-family: circular-book, sans-serif;
+}
+
 /* --------------Form-------------*/
 label {
   display: flex;
@@ -54,6 +59,5 @@ textarea:focus {
   #documentation-link {
     grid-column: 1/3;
   }
-
 
 }
