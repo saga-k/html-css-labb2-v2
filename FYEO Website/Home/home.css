@@ -147,7 +147,7 @@ i {
   }
 
   /* set rows for copy*/
-  #hero a {
+  #hero form {
     grid-row: 6/7;
   }
 
