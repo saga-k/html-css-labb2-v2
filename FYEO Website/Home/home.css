@@ -68,8 +68,6 @@ Desktop Layout
 
 /* -----------------Audit reasons-----------------*/
 #audit-reasons {
-  display: flex;
-  flex-direction: column;
   gap: 1.8rem;
 }
 
@@ -87,12 +85,6 @@ Desktop Layout
 }
 
 /* -----------------Audit Process-----------------*/
-#audit-process {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-}
-
 #audit-process h2 {
   margin-bottom: 0.8rem;
 }

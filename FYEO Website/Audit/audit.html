@@ -38,57 +38,55 @@
     </div>
 
     <!--_____________________________Form_____________________________-->
-    <form class="margins">
+    <form class="margins mobile-flex two-col-grid">
       <h2>Contact Information</h2>
 
-      <label>
+      <label id="first-name">
         First Name*
         <input required type="text" name="first-name">
       </label>
 
-      <label>
+      <label id="last-name">
         Last Name*
         <input required type="text" name="last-name">
       </label>
 
-      <label>
+      <label id="email">
         Email*
         <input required type="email" name="email">
       </label>
 
-      <label>
+      <label id="country">
         Country*
         <input required type="text" name="country">
       </label>
 
-      <label>
+      <label id="audit-description">
         Audit Description*
         <textarea required name="audit-description">
         </textarea>
       </label>
 
-      <h2>Tehnical details</h2>
-      <p>Please provide as many technical details as possible to help our team
-        quickly assess the scope of the audit.</p>
+      <div id="technical-details">
+        <h2>Tehnical details</h2>
+        <p>Please provide as many technical details as possible to help our team
+          quickly assess the scope of the audit.</p>
+      </div>
 
-      <label>
+      <label id="repository-link">
         Repository link
         <input type="text" name="repository-link" placeholder="Link to Github repository if available">
       </label>
 
-      <label>
-        Repository link
-        <input type="text" name="repository-link" placeholder="Link to Github repository if available">
-      </label>
-
-      <label>
+      <label id="github-link">
         Github link
         <input type="text" name="github-link" placeholder="Specific Github commit to audit if available ">
       </label>
 
-      <label>
+      <label id="documentation-link">
         Link to Documentation
-        <input type="text" name="github-link" placeholder="Please provide a link to user documentation if available">
+        <input type="text" name="documentation-link"
+          placeholder="Please provide a link to user documentation if available">
       </label>
 
       <button type="submit">Request security audit</button>
