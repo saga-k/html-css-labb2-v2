@@ -1,4 +1,5 @@
 /* ------------------------------Global Start------------------------------*/
+
 /* Fontfiles*/
 @font-face {
   font-family: circular-book;
@@ -174,8 +175,4 @@ footer i {
   margin: 1rem 0 0 0;
 }
 
-.mobile-flex {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-}
+/* Validated 16 sep 2024*/
