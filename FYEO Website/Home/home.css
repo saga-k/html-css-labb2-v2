@@ -19,7 +19,7 @@
 /* -----------------Logo Carousel-----------------*/
 @keyframes slide1 {
   from {
-    transform: translatex(0%);
+    transform: translateX(0%);
   }
 
   to {

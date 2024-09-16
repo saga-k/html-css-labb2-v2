@@ -4,11 +4,13 @@
 @font-face {
   font-family: circular-book;
   src: url(CircularPro-Book.otf);
+  font-display: swap;
 }
 
 @font-face {
   font-family: circular-medium;
   src: url(CircularPro-Medium.otf);
+  font-display: swap;
 }
 
 /* Global fixes */
