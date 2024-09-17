@@ -12,6 +12,7 @@
   width: 40%;
   max-width: 250px;
   border-radius: 5px;
+  min-width: 200px;
   border: solid white 1px;
 }
 
